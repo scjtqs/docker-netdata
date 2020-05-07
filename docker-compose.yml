@@ -3,7 +3,7 @@ services:
 
   netdata:
     image: netdata/netdata
-    hostname: pi.scjtqs.com.com # set to fqdn of host
+    hostname: pi.scjtqs.com # set to fqdn of host
     ports:
       - 19999:19999
     cap_add:
